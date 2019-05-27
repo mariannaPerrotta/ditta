@@ -52,7 +52,7 @@
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-                    <input class="input100" type="password" name="pass" id="InputPassword">
+                    <input class="input100" name="pass" id="InputPassword">
                     <span class="focus-input100"></span>
                 </div>
 
@@ -70,9 +70,10 @@
                 </div>
 
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn" id="btnLogin">
+                    <a class="login100-form-btn" style="color: white"  id="btnLogin">
                         Login
-                    </button>
+
+                    </a>
                 </div>
 
             </form>

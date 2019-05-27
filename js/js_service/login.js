@@ -27,7 +27,7 @@ document.getElementById("btnLogin").onclick = function () {
 
     $.ajax({
 
-        url: "http://127.0.0.1/ditta_service/public/login",
+        url: "http://localhost/ditta_service/public/login",
 
         type: 'POST',
 
@@ -42,34 +42,34 @@ document.getElementById("btnLogin").onclick = function () {
 
             if (data.error === false) {
 
-                alert("Ciao");
-                // var utente = {
-                //     id: data.utente.idutente,
-                //     nome: data.utente.nome,
-                //     cognome: data.utente.cognome,
-                //     email: data.utente.username,
-                //
-                // }
-                //
 
-            //     $.ajax({
-            //             url: "../../pages/session.php",
-            //
-            //             type: 'POST',
-            //
-            //             data: utente,
-            //
-            //             dataType: "html",
-            //
-            //             success: function (data) {
-            //                 alert("Ciao");
-            //                // window.location.assign('index.php');
-            //
-            //
-            //             }
-            //
-            //         }
-            //     )
+                var utente = {
+                    id: data.utente.idutente,
+                    nome: data.utente.nome,
+                    cognome: data.utente.cognome,
+                    email: data.utente.username,
+
+                }
+
+
+                $.ajax({
+                        url: "../pages/session.php",
+
+                        type: 'POST',
+
+                        data: utente,
+
+                        dataType: "html",
+
+                        success: function (data) {
+                           
+                           window.location.assign('index.php');
+
+
+                        }
+
+                    }
+                )
          }
             if (data.error === true) {
                 if (campi_vuoti === false) {
