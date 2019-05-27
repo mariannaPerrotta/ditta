@@ -39,7 +39,7 @@ $(document).ready( function () {
                         '<td>' + array[i].descrizione + '</td>' +
                         '<td>' + array[i].marca + '</td>' +
                         '<td>' + array[i].modello + '</td>' +
-                        '<td class="fas fa-fw fa-tachometer-alt">'  + + '</td>' +
+                        '<td>  <img src="./img/39220.png"> </td>' +
                         '</tr>'
                     );
 
