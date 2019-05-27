@@ -161,7 +161,7 @@
 						Identificativo
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="identificativo">
+                                <input class="input100" type="text" name="username" id="ins_identificativo">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -169,7 +169,7 @@
 						Nome
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="nome">
+                                <input class="input100" type="text" name="username" id="ins_nome">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -177,7 +177,7 @@
 						Modello
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="modello">
+                                <input class="input100" type="text" name="username" id="ins_modello">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -185,7 +185,7 @@
 						Descrizione
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="descrizione">
+                                <input class="input100" type="text" name="username" id="ins_descrizione">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -193,7 +193,7 @@
 						Marca
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="marca">
+                                <input class="input100" type="text" name="username" id="ins_marca">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -201,7 +201,7 @@
 						Prezzo
 					</span>
                             <div class="wrap-input100 validate-input m-b-36" >
-                                <input class="input100" type="text" name="username" id="prezzo">
+                                <input class="input100" type="text" name="username" id="ins_prezzo">
                                 <span class="focus-input100"></span>
                             </div>
 
@@ -236,21 +236,10 @@
 
 
 <!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Core plugin JavaScript-->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for all pages-->
-<script src="js/sb-admin-2.min.js"></script>
-
-<!-- Page level plugins -->
-<script src="vendor/datatables/jquery.dataTables.min.js"></script>
-<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-<!-- Page level custom scripts -->
-<script src="js/demo/datatables-demo.js"></script>
+<!--===============================================================================================-->
 <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 <script src="../vendor/animsition/js/animsition.min.js"></script>
@@ -264,6 +253,10 @@
 <script src="../vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
 <script src="../vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="../js/main.js"></script>
+<script src="../js/js_service/inserimento_prod.js"></script>
+
 
 </body>
 
