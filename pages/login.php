@@ -52,7 +52,7 @@
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-                    <input class="input100" name="pass" id="InputPassword">
+                    <input class="input100" name="pass" type="password" id="InputPassword">
                     <span class="focus-input100"></span>
                 </div>
 

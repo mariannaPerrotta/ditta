@@ -40,21 +40,21 @@
 						Nome
 					</span>
                 <div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-                    <input class="input100" type="text" name="username" >
+                    <input class="input100" type="text" name="name" id="reg_nome">
                     <span class="focus-input100"></span>
                 </div>
                 <span class="txt1 p-b-11">
 						Cognome
 					</span>
                 <div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-                    <input class="input100" type="text" name="username" >
+                    <input class="input100" type="text" name="cognome" id="reg_cognome">
                     <span class="focus-input100"></span>
                 </div>
                 <span class="txt1 p-b-11">
 						Username
 					</span>
                 <div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-                    <input class="input100" type="text" name="username" >
+                    <input class="input100" type="text" name="username" id="reg_username">
                     <span class="focus-input100"></span>
                 </div>
 
@@ -65,7 +65,17 @@
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-                    <input class="input100" type="password" name="pass" >
+                    <input class="input100" type="password" name="password" id="reg_pass">
+                    <span class="focus-input100"></span>
+                </div>
+                <span class="txt1 p-b-11">
+						Conferma Password
+					</span>
+                <div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
+						<span class="btn-show-pass">
+							<i class="fa fa-eye"></i>
+						</span>
+                    <input class="input100" type="password" name="password" id="reg_pass_conf">
                     <span class="focus-input100"></span>
                 </div>
 
@@ -83,9 +93,9 @@
                 </div>
 
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn">
+                    <a class="login100-form-btn" id="btnregistrazione" style="color: white">
                         Registrazione
-                    </button>
+                    </a>
                 </div>
 
             </form>
@@ -112,6 +122,7 @@
 <script src="../vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 <script src="../js/main.js"></script>
+<script src="../js/js_service/registrazione.js"></script>
 
 </body>
 </html>
