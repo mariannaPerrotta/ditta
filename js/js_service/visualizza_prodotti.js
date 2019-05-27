@@ -13,7 +13,7 @@ $(document).ready( function () {
         success: function (data) {
 
             if (data.prodotti.error === false) {
-                alert("true");
+
                 var n = data.prodotti.contatore;
 
                 var array = [];
