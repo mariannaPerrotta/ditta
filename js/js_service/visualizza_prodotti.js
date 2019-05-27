@@ -39,7 +39,7 @@ $(document).ready( function () {
                         '<td>' + array[i].descrizione + '</td>' +
                         '<td>' + array[i].marca + '</td>' +
                         '<td>' + array[i].modello + '</td>' +
-                        '<td>  <img src="./img/39220.png"> </td>' +
+                        '<td>  <img id="btnCanc" src="./img/39220.png"> </td>' +
                         '</tr>'
                     );
 
