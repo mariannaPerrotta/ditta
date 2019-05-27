@@ -147,6 +147,7 @@
                                     <th>Descrizione</th>
                                     <th>Marca</th>
                                     <th>Prezzo</th>
+                                    <th> </th>
                                 </tr>
                                 </thead>
 

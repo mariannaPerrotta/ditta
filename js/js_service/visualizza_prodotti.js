@@ -39,6 +39,7 @@ $(document).ready( function () {
                         '<td>' + array[i].descrizione + '</td>' +
                         '<td>' + array[i].marca + '</td>' +
                         '<td>' + array[i].modello + '</td>' +
+                        '<td class="fas fa-fw fa-tachometer-alt">'  + + '</td>' +
                         '</tr>'
                     );
 
