@@ -21,6 +21,7 @@ $(document).ready( function () {
                 for (var i = 0; i < n; i++) {
 
                     var pro = {
+                        id: data.prodotti[i].id,
                         identificativo: data.prodotti[i].identificativo,
                         nome: data.prodotti[i].nome,
                         modello: data.prodotti[i].modello,
@@ -39,12 +40,15 @@ $(document).ready( function () {
                         '<td>' + array[i].descrizione + '</td>' +
                         '<td>' + array[i].marca + '</td>' +
                         '<td>' + array[i].modello + '</td>' +
-                        '<td>  <img id="btnCanc" src="./img/39220.png"> </td>' +
+                        '<td>  <img class="rounded-circle border-0" width="25px" height="25px" align="center"  id="'+array[i].id+' " src="../img/39220.png" onclick="rimuovi_prodotto('+"'"+array[i].id+"'"+')"> </td>' +
                         '</tr>'
                     );
 
 
                 }
+
+
+
             } else {
                 alert(data.prodotti.message);
             }

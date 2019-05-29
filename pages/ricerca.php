@@ -138,7 +138,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-bordered" id="prod_tab" width="100%" cellspacing="0">
+                            <table class="table table-bordered" id="prod_tab1" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
                                     <th>Identificativo</th>
@@ -189,9 +189,4 @@
 
 <!-- Page level custom scripts -->
 <script src="../js/demo/datatables-demo.js"></script>
-<script src="../js/js_service/visualizza_prodotti.js"></script>
-<script src="../js/js_service/rimuovi_prodotto.js"></script>
-</body>
-
 </html>
-
