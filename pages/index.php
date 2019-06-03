@@ -60,8 +60,9 @@
         <hr class="sidebar-divider">
 
         <!-- Heading -->
-        <div class="sidebar-heading">
-            Logout
+        <div class="sidebar-heading" >
+            <a class="nav-link" href="logout.php" style="color: white">
+                <span >Logout</span></a>
         </div>
 
 
@@ -188,7 +189,7 @@
                                 <div class="input-group">
 
                                     <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button"  style="height: 35px">
+                                        <button class="btn btn-primary"   style="height: 35px">
                                             <a href="visualizza_ricerca.php" class="fas fa-search fa-sm"></a>
                                         </button>
                                     </div>

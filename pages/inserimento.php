@@ -51,7 +51,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Ditta Colaianni </div>
+            <div class="sidebar-brand-text mx-3">Ditta Colaianni</div>
         </a>
 
         <!-- Divider -->
@@ -67,6 +67,7 @@
             <a class="nav-link" href="inserimento.php">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Iserimento Prodotti</span></a>
+
         </li>
         <li class="nav-item active">
             <a class="nav-link" href="visualizza.php">
@@ -77,8 +78,9 @@
         <hr class="sidebar-divider">
 
         <!-- Heading -->
-        <div class="sidebar-heading">
-            Logout
+        <div class="sidebar-heading" >
+            <a class="nav-link" href="logout.php" style="color: white">
+                <span >Logout</span></a>
         </div>
 
 
