@@ -133,7 +133,7 @@
 
 
                 <!-- Area Chart -->
-                <div class="col-xl-8 col-lg-7">
+                <div class="nav-item">
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 ">
@@ -143,7 +143,7 @@
 
 
                                  <span class="fa-stack fa-4x">
-                <img src="..\images\icons\visualizza.png" ></img>
+                <img src="..\images\icons\visualizza.png" style="width: inherit"></img>
           </span>
 
                             </div>
@@ -155,17 +155,17 @@
 
 
                 <!-- Area Chart -->
-                <div class="col-xl-8 col-lg-7">
+                <div class="nav-item">
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 ">
-                            <h6 class="m-0 font-weight-bold text-primary" style="">Inserimento Prodotto</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Inserimento Prodotto</h6>
                             <div class="card-body">
 
 
 
                                  <span class="fa-stack fa-4x">
-                <img src="..\images\icons\ins.png" style="width:inherit;" ></img>
+                <img src="..\images\icons\ins.png" style="width: inherit""></img>
           </span>
 
 
@@ -178,7 +178,7 @@
 
 
                 <!-- Area Chart -->
-                <div class="col-xl-8 col-lg-7">
+                <div class="nav-item">
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 ">
@@ -188,7 +188,7 @@
                                 <div class="input-group">
 
                                     <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button"  style="height: 35px">
+                                        <button class="btn btn-primary" type="button" style="height: 35px">
                                             <a href="visualizza_ricerca.php" class="fas fa-search fa-sm"></a>
                                         </button>
                                     </div>
