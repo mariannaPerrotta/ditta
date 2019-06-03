@@ -181,7 +181,7 @@
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 ">
-                            <h6 class="m-0 font-weight-bold text-primary">Ricerca</h6>
+                            <h6 class="m-0 font-weight-bold text-primary" >Ricerca</h6>
                             <div class="card-body">
 
 
