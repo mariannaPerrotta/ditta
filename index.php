@@ -53,7 +53,7 @@
 
   <!-- Header -->
   <header class="masthead" >
-    <div class="container">
+    <div class="container" >
       <div class="intro-text">
         <div class="intro-heading text-uppercase">Benvenuto</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contattaci</a>
