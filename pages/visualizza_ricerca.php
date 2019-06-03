@@ -94,10 +94,10 @@
                 <!-- Topbar Search -->
                 <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
-                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" id="btn_search">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" type="button">
-                                <i class="fas fa-search fa-sm"></i>
+                            <button class="btn btn-primary" type="button"  style="height: 35px" id="search">
+                                <a class="fas fa-search fa-sm"  ></a>
                             </button>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-bordered" id="prod_tab" width="100%" cellspacing="0">
+                            <table class="table table-bordered" id="prod_tab2" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
                                     <th>Identificativo</th>
@@ -192,8 +192,8 @@
 
 <!-- Page level custom scripts -->
 <script src="../js/demo/datatables-demo.js"></script>
-<script src="../js/js_service/visualizza_prodotti.js"></script>
 <script src="../js/js_service/rimuovi_prodotto.js"></script>
+<script src="../js/js_service/ricerca.js"></script>
 </body>
 
 </html>

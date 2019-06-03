@@ -186,11 +186,10 @@
                             <div class="card-body">
 
                                 <div class="input-group">
-                                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                           aria-label="Search" aria-describedby="basic-addon2" id="btn_search">
+
                                     <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button" id="search" style="height: 35px">
-                                            <a class="fas fa-search fa-sm"></a>
+                                        <button class="btn btn-primary" type="button"  style="height: 35px">
+                                            <a href="visualizza_ricerca.php" class="fas fa-search fa-sm"></a>
                                         </button>
                                     </div>
                                 </div>
@@ -246,7 +245,7 @@
 
 
         <script src="../js/js_service/numero.js"></script>
-        <script src="../js/js_service/ricerca.js"></script>
+
 
 </body>
 
