@@ -185,14 +185,12 @@
                             <h6 class="m-0 font-weight-bold text-primary">Cerca Prodotto</h6>
                             <div class="card-body">
 
-                                <div class="input-group">
 
-                                    <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button" style="height: 35px">
-                                            <a href="visualizza_ricerca.php" class="fas fa-search fa-sm"></a>
-                                        </button>
-                                    </div>
-                                </div>
+                                 <span class="fa-stack fa-4x">
+                <img src="..\images\icons\search.png" style="width: inherit""></img>
+          </span>
+
+
                             </div>
                         </div>
                         <!-- Card Body -->
