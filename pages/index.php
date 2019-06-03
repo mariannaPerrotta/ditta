@@ -142,7 +142,7 @@
 
 
 
-                                 <span class="fa-stack fa-4x">
+                                 <span class="card-body">
                 <img src="..\images\icons\visualizza.png" style="width: inherit"></img>
           </span>
 
@@ -164,7 +164,7 @@
 
 
 
-                                 <span class="fa-stack fa-4x">
+                                 <span class="card-body">
                 <img src="..\images\icons\ins.png" style="width: inherit""></img>
           </span>
 
@@ -177,16 +177,16 @@
                 </div>
 
 
-                <!-- Area Chart -->
                 <div class="nav-item">
                     <div class="card shadow mb-4">
                         <!-- Card Header - Dropdown -->
                         <div class="card-header py-3 ">
-                            <h6 class="m-0 font-weight-bold text-primary">Cerca Prodotto</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Ricerca</h6>
                             <div class="card-body">
 
 
-                                 <span class="fa-stack fa-4x">
+
+                                 <span class="card-body">
                 <img src="..\images\icons\search.png" style="width: inherit""></img>
           </span>
 
@@ -198,9 +198,8 @@
                     </div>
                 </div>
 
-            </div>
 
-            <!-- Content Row -->
+                <!-- Content Row -->
             <div class="row">
 
 
