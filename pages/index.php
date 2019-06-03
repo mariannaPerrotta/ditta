@@ -143,7 +143,7 @@
 
 
                                  <span class="fa-stack fa-4x">
-                <img src="../images\icons\manutenzione.jpg" style="width:inherit;"></img>
+                <img src="..\images\icons\visualizza.png" ></img>
           </span>
 
                             </div>
