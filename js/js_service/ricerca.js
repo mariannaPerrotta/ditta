@@ -15,7 +15,7 @@ document.getElementById("search").onclick = function () {
 // funzione che dice che è stato effettuato il servizio
         success: function (data) {
 //questo serve per vedere quando l'utente è autenticato
-            alert(data.prodotti.error.toString());
+
             if (data.prodotti.error === false) {
 
                 var n = data.prodotti.contatore;
@@ -37,18 +37,19 @@ document.getElementById("search").onclick = function () {
 
                     array.push(pro);
 
-                    $('#prod_tab1').append(
-                        '<tr>' +
-                        '<td>' + array[i].identificativo + '</td>' +
-                        '<td>' + array[i].nome + '</td>' +
-                        '<td>' + array[i].modello + '</td>' +
-                        '<td>' + array[i].descrizione + '</td>' +
-                        '<td>' + array[i].marca + '</td>' +
-                        '<td>' + array[i].modello + '</td>' +
-                        '<td>  <img class="rounded-circle border-0" width="25px" height="25px" align="center"  id="' + array[i].id + ' " src="../img/39220.png" onclick="rimuovi_prodotto(' + "'" + array[i].id + "'" + ')"> </td>' +
-                        '</tr>'
-                    );
 
+
+                        $('#prod_tab2').append(
+                            '<tr>' +
+                            '<td>' + array[i].identificativo + '</td>' +
+                            '<td>' + array[i].nome + '</td>' +
+                            '<td>' + array[i].modello + '</td>' +
+                            '<td>' + array[i].descrizione + '</td>' +
+                            '<td>' + array[i].marca + '</td>' +
+                            '<td>' + array[i].modello + '</td>' +
+                            '<td>  <img class="rounded-circle border-0" width="25px" height="25px" align="center"  id="' + array[i].id + ' " src="../img/39220.png" onclick="rimuovi_prodotto(' + "'" + array[i].id + "'" + ')"> </td>' +
+                            '</tr>'
+                        );
 
                 }
             }
