@@ -165,7 +165,7 @@
 
 
                                  <span class="fa-stack fa-4x">
-                <img src="..\images\icons\ins.png" style="width:inherit;"></img>
+                <img src="..\images\icons\ins.png" style="width:inherit;" ></img>
           </span>
 
 
