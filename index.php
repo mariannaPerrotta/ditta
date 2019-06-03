@@ -70,24 +70,25 @@
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
-      <div class="row text-center" >
-        <div class="col-md-4" >
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
+      <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Assistenza</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
+          <img src="images\icons\icon.png" style="width:inherit;"></img>
 
+          </span>
+          <h4 class="service-heading" style="padding-top: 40px">Manutenzione</h4>
+          <p class="text-muted">Forniamo manutenzione a impianti idraulici e caldaie.</p>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <img src="images\icons\manutenzione.jpg" style="width:inherit;"></img>
+          </span>
+            <h4 class="service-heading" style="padding-top: 40px">Vendita prodtti</h4>
+            <p class="text-muted">Vendiamo pezzi di ricambio e impianti idraulici e caldaie.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -106,37 +107,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Inserisci il tuo nome.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Inserisci la tua email.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Telefono *" required="required" data-validation-required-message="Inserisci il tuo numero.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Messagio*" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Invia</button>
-              </div>
-            </div>
-          </form>
-        </div>
+        <a style="font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; color: #fed136; font-size: xx-large;  width: 100%;">Ditta Francesco Colaianni</a>
+          <a style="font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; color: #fed136; font-size: xx-large; width: 100%;">Via Alberto dalla Chiesa</a>
+          <a style="font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; color: #fed136; font-size: xx-large; ">Tel. 0865-50761</a>
+
       </div>
     </div>
   </section>
